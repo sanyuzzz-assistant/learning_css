@@ -1,11 +1,70 @@
-h4{
-    color:rgb(232, 75, 232);
+h4 {
+    color: rgb(232, 75, 232);
     background-color: aquamarine;
     font-size: 20px;
 }
-h5{
-    color:sandybrown;
+
+h5 {
+    color: sandybrown;
     background-color: beige;
     font-style: oblique;
     font-size: 28px;
 }
+
+.heading6 {
+    color: rgb(232, 75, 232);
+    background-color: aquamarine;
+    font-size: 20px;
+}
+
+.para {
+    color: #401ac6;
+    font-size: 16px;
+}
+
+#heading1 {
+    color: #15945f;
+    background-color: #69bcdd;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#heading_1 {
+    color: #770ceb;
+    background-color: #69bcdd;
+    font-size: 24px;
+    font-style: italic;
+}
+.t_transform_uppercase{
+            text-transform: uppercase;
+        }
+        .t_transform_lowercase{
+            text-transform: lowercase;
+        }
+        .t_transform_capitilize{
+            text-transform: capitalize;
+        }
+        .t_decor_underline{
+            text-decoration: underline;
+        }
+        .t_decor_overline{
+            text-decoration: overline;
+        }
+        .t_decor_line-through{
+            text-decoration: line-through;
+        }
+        .t_align_left{
+            text-align: left;
+        }
+        .t_align_center{
+            text-align: center;
+        }
+        .t_align_right{
+            text-align: right;
+        }
+    .t_shadow
+    {
+            text-shadow: 0px 2px 5px #4f27ee;
+            text-decoration: underline;
+            text-transform: capitalize;
+    }
