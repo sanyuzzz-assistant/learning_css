@@ -172,3 +172,41 @@ h5 {
         height: 600px;
         background: conic-gradient(from 45deg, red, yellow, aqua, blue);
     }
+    .flex-items{
+        background-color: #ef80dd;
+        padding: 10px;
+        margin: 10px;
+        width: 230px;
+        height: 180px;
+        margin-top: 10px;
+        color: rgb(28, 6, 227);
+        font-size: 50px;
+        border: 3px solid red;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+    }
+    .image{
+        width: 100%;
+    }
+    .bg_image_example{
+        background-color: black;
+        background-image: url(../images/butterfly.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bg_headings{
+        padding-top: 60px;
+        font-size: 60px;
+        color: #1a0bf0;
+        text-align: center;
+    }
+
