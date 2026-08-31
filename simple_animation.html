@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            position: relative;
+            animation: movingbox;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction: alternate;
+        }
+
+        /* /* @keyframes movingbox{
+            0%{background-color: aquamarine;left: 0px;top: 0px;} 
+            25%{background-color: red;left: 300px;top: 0px;}
+            50%{background-color: blue;left: 300px;top: 300px}
+            75%{background-color: green;left: 0px;top: 300px;}
+            100%{background-color: aquamarine;left: 0px;top: 0px;} */
+
+         /* */ 
+@keyframes movingbox{
+            0%{background-image: url(images/butterfly.jpg);}
+            25%{background-image: url(images/cat.png);}
+            50%{background-image: url(images/flower.jpg);}
+            75%{background-image: url(images/nature.jpg);}
+            100%{background-image: url(images/guru.jpeg);}
+}
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
